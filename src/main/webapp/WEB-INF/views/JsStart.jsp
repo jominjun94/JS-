@@ -10,6 +10,7 @@
 
 <div>JSP -  JS 스터디</div>
 <span id = "heading">안녕!</span>
+2차 깃헙
 </body>
 
 <script>
