@@ -32,9 +32,9 @@ public class DemoApplication {
 
         return mv;
     }
-    @GetMapping("/4")
-    public ModelAndView jsp4(){
-        ModelAndView mv = new ModelAndView("day4");
+    @GetMapping("/5")
+    public ModelAndView jsp5(){
+        ModelAndView mv = new ModelAndView("day5");
 
         return mv;
     }
