@@ -12,13 +12,20 @@ import org.springframework.web.servlet.ModelAndView;
 public class DemoApplication {
 
 
-    @GetMapping("/")
-    public ModelAndView jsp(){
+    @GetMapping("/1")
+    public ModelAndView jsp1(){
         ModelAndView mv = new ModelAndView("JsStart");
 
         return mv;
     }
 
+
+    @GetMapping("/2")
+    public ModelAndView jsp2(){
+        ModelAndView mv = new ModelAndView("day2");
+
+        return mv;
+    }
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
     }
