@@ -37,7 +37,12 @@
             alert("ha2");
         };
 
- // 함수 와  익명 함수
+        var ha2 = document.querySelector('#haha2');
+        ha2.onclick =  function (){
+            ha.style.color = "red";
+        };
+
+        // 함수 와  익명 함수
 
 </script>
 </body>
