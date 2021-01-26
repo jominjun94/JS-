@@ -16,6 +16,15 @@
 
     if(a != null) {
         document.querySelector('#result').innerHTML = "결곽값은" + a +"입니다";
+        if(a % 3 === 0){
+            document.write("<b>3의 배수네요!</b>");
+        }else {
+            var sum = 0;
+            for(var i = 0; i < 6 ; i ++){
+                sum  +=  i;
+            }
+            document.write("<b>3의 배수 아닙니다.</b>" +"합은"+sum);
+        }
 
     }else if(a == null){
         alert("취소를 눌렀어요");
