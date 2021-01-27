@@ -38,6 +38,13 @@ public class DemoApplication {
 
         return mv;
     }
+
+    @GetMapping("/6")
+    public ModelAndView jsp6(){
+        ModelAndView mv = new ModelAndView("day6");
+
+        return mv;
+    }
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
     }
