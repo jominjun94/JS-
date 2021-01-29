@@ -52,6 +52,20 @@ public class DemoApplication {
 
         return mv;
     }
+
+    @GetMapping("/8")
+    public ModelAndView jsp8(){
+        ModelAndView mv = new ModelAndView("day8");
+
+        return mv;
+    }
+
+    @GetMapping("/8-1")
+    public ModelAndView jsp81(){
+        ModelAndView mv = new ModelAndView("day8-1");
+
+        return mv;
+    }
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
     }
