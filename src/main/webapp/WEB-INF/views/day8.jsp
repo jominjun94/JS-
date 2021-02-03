@@ -9,7 +9,7 @@
 <body>
 <h3 id = "ex"> 상세 설명</h3>
 <p style = "background-color: blue" id = "hidden">1111111111111111111111111111111111111111111<br>
-111111111111111111111111111111111111111111111</p>
+111111111111111111111111111d111111111111111111</p>
 
 <script>
 document.querySelector('#hidden').style.visibility = 'hidden';

@@ -23,9 +23,10 @@ var big = document.querySelector('#ani');
 var small = document.querySelectorAll('.small');
 
 for(var i = 0; i<small.length; i ++){
-    small[i].onclick = function (){
+    small[i].addEventListener("click",function (){ // 자바스크립트
         big.setAttribute("alt" , this.alt);
-    }
+        big.style.color = "red";  // css 사용
+    });
 }
 
 function change(){
