@@ -74,6 +74,14 @@ public class DemoApplication {
 
         return mv;
     }
+
+
+    @GetMapping("/9-1")
+    public ModelAndView jsp91(){
+        ModelAndView mv = new ModelAndView("day9-1");
+
+        return mv;
+    }
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
     }
