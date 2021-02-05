@@ -82,6 +82,16 @@ public class DemoApplication {
 
         return mv;
     }
+
+
+
+
+    @GetMapping("/10")
+    public ModelAndView jsp10(){
+        ModelAndView mv = new ModelAndView("day10");
+
+        return mv;
+    }
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
     }
