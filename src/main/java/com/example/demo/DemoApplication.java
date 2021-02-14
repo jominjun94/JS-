@@ -86,9 +86,16 @@ public class DemoApplication {
 
 
 
-    @GetMapping("/10")
-    public ModelAndView jsp10(){
-        ModelAndView mv = new ModelAndView("day10");
+        @GetMapping("/10")
+        public ModelAndView jsp10(){
+            ModelAndView mv = new ModelAndView("day10");
+
+            return mv;
+        }
+
+        @GetMapping("/new1")
+        public ModelAndView new1(){
+            ModelAndView mv = new ModelAndView("new1");
 
         return mv;
     }
@@ -98,4 +105,3 @@ public class DemoApplication {
 
 
 }
-
